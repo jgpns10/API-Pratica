@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Busca de Jogadores</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="jumbotron text-center">
+        <h1>Busca de Jogadores</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <form>
+                        <input id="namePlayer" class="form-control" type="text"
+                            placeholder="Digite o nome do jogador...">
+                        <br />
+                        <a class="btn btn-primary"
+                            onclick="searchPlayers(document.getElementById('namePlayer').value)">Buscar</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h3 id="playerName"></h3>
+                <p id="team"></p>
+                <p id="nationality"></p>
+                <img id="playerImage" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <script src="app.js"></script>
+</body>
