@@ -1,4 +1,4 @@
-⚽ Busca de Jogadores
+<strong>Busca de Jogadores</strong>
 
 Uma aplicação simples em HTML, CSS, Bootstrap e JavaScript que permite buscar informações de jogadores de futebol usando a TheSportsDB API
 .
